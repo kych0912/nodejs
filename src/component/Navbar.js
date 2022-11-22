@@ -17,8 +17,8 @@ const DEFAULT_ADDRESS = "0x000000000000000000000000000000";
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
-  const [isLogin,setIsLogin] = React.useState(true);
-  const [address,setAddress] = React.useState("0x88B667D86FC7B318E9916b89b02f0013ce010321");
+  const [isLogin,setIsLogin] = React.useState(false);
+  const [address,setAddress] = React.useState(DEFAULT_ADDRESS);
   const [balance,setBalance] = React.useState(0);
 
   const [open, setOpen] = React.useState(false);
