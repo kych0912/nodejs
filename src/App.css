@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bg {
+  background-image: url(./IMG/mainIMG.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100vh;
+
+}
+.bg1{
+  background-image: url(./IMG/MintIMG.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100vh;
+
+}
+.navbar{
+  position : fixed;
+}
+#file {
+  display: none;
 }
